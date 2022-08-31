@@ -1,3 +1,153 @@
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+
+}
+
+p {
+    color: grey;
+}
+
+.image {
+    background-image: url(images/donation1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+
+}
+
+.text-color {
+    text-align: center;
+    color: aliceblue;
+    padding: 60px 10px 110px 10px;
+
+
+}
+
+.btn-decoration {
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 700;
+    font-size: larger;
+    padding: 10px 20px;
+    /* background-image: linear-gradient(tomato, orange); */
+    border-radius: 2px;
+    border: 0;
+    background-color: rgb(255, 72, 40);
+}
+
+.donet-today {
+    text-align: center;
+
+
+}
+
+.donet-part {
+    display: flex;
+
+    justify-content: center;
+}
+
+.donet-amount {
+    padding: 15px;
+    margin-right: 30px;
+    background-color: rgb(228, 242, 255);
+    border-radius: 3px;
+}
+
+#donet-amount {
+    color: rgb(253, 88, 59);
+    padding: 15px;
+    margin-right: 30px;
+    background-color: #ffdddd;
+    border: 2px solid tomato;
+    border-radius: 5px;
+}
+
+.amount {
+    text-align: center;
+}
+
+.our-donet-plan {
+    text-align: center;
+}
+
+.donet-plan {
+    display: flex;
+    justify-content: center;
+    font-size: small;
+
+}
+
+#Food_for_a_family {
+    background-color: aliceblue;
+    margin-right: 20px;
+    padding: 10px;
+    border-radius: 3px;
+
+}
+
+#Shelter-for-a-family {
+    background-color: #ffdddd;
+    margin-right: 20px;
+    padding: 10px;
+    border-radius: 3px;
+
+}
+
+#Education_for_a_child {
+    background-color: bisque;
+    margin-right: 20px;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.third-part {
+    margin-top: 30px;
+    display: flex;
+    padding: 80px;
+}
+
+.donation10 {
+    width: 100%;
+}
+
+.They_saved_us {
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.get_my_updstes {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.input-decoration {
+    background-color: rgb(255, 235, 209);
+    padding: 40px;
+    margin-right: 300px;
+    margin-left: 300px;
+}
+
+.input {
+    padding: 10px 20px;
+    background-color: aliceblue;
+    border: 0;
+}
+
+
+
+footer {
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+    background-color: black;
+    color: orangered;
+    font-size: smaller;
 }
